@@ -98,15 +98,39 @@
 
 /* 9° esercizio completato */
 
+@keyframes rotate {
+  0% {
+      transform: rotate(365deg);
+  }
+}
+
 .ex-10-icon{
   animation: rotate 1s linear infinite; 
 }
 
-@keyframes rotate {
+/* 10° esercizio completato */
+
+@keyframes spin {
   0% {
-      transform: rotate(1turn);
+      transform: rotate(0deg);
+  }
+
+  50%{
+    transform: rotate(160deg);
+  }
+
+  75%{
+    transform: rotate(285deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
   }
 }
 
-/* 10° esercizio completato */
+.ex-11-icon:hover{
+  animation: spin 1.5s linear; 
+}
+
+/* 11° esercizio completato */
 

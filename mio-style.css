@@ -74,3 +74,15 @@
 }
 
 /* 7° esercizio completato */
+
+.ex-8-img:hover{
+  filter: grayscale(50%) sepia(50%); 
+  border-radius: 20px;
+}
+
+.ex-8-img{
+  transition: 1.5s;
+}
+
+/* 8° esercizio completato */
+

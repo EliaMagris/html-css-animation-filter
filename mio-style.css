@@ -65,4 +65,12 @@
 
 /* 6° esercizio completato */
 
+.ex-7-img:hover{
+  filter: grayscale(100%) sepia(50%); 
+}
 
+.ex-7-img{
+  transition: 1.5s;
+}
+
+/* 7° esercizio completato */

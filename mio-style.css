@@ -209,7 +209,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-  animation: bottom-white 2s linear;
+  animation: bottom-white 14s linear;
 }
 
 @keyframes bottom-white{
@@ -230,7 +230,7 @@
     bottom: 100%;
 }
 90% {
-    right: -15px;
+    right: -30px;
     bottom: -10px;
 }
 100% {

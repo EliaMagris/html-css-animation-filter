@@ -70,7 +70,7 @@
 }
 
 .ex-7-img{
-  transition: 1.5s;
+  transition: all 1.5s;
 }
 
 /* 7° esercizio completato */
@@ -81,7 +81,7 @@
 }
 
 .ex-8-img{
-  transition: 1.5s;
+  transition: all 1.5s;
 }
 
 /* 8° esercizio completato */
@@ -93,8 +93,20 @@
 }
 
 .ex-9-img{
-  transition: 1.5s;
+  transition: all 1.5s;
 }
 
 /* 9° esercizio completato */
+
+.ex-10-icon{
+  animation: rotate 1s linear infinite; 
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(1turn);
+  }
+}
+
+/* 10° esercizio completato */
 

@@ -35,3 +35,15 @@
 
 /* 3° esercizio completato */
 
+.ex-4-square:hover{
+  opacity: 0; 
+}
+
+.ex-4-square{
+  transition: all 1s;
+}
+
+/* 4° esercizio completato */
+
+
+
